@@ -47,12 +47,18 @@ struct ReferenceEntry: Codable {
 private struct ReferenceData: Codable {
     let roasters: [ReferenceEntry]
     let countries: [ReferenceEntry]
+    let regions: [ReferenceEntry]
     let processes: [ReferenceEntry]
     let varieties: [ReferenceEntry]
 
     /// Used when the file is missing or broken, so the app keeps working
     /// with no matches instead of crashing.
-    static let empty = ReferenceData(roasters: [], countries: [], processes: [], varieties: [])
+    static let empty = ReferenceData(
+        roasters: [],
+        countries: [],
+        regions: [],
+        processes: [],
+        varieties: [])
 }
 
 // -------------------------------------------------------------
@@ -63,7 +69,7 @@ final class CoffeeReference {
     /// The four lookup lists in the JSON file. The scanner picks which list
     /// to search by passing one of these.
     enum Category {
-        case roasters, countries, processes, varieties
+        case roasters, countries, processes, varieties, regions
     }
 
     /// One compiled search pattern. A single entry can produce several of these
@@ -90,6 +96,7 @@ final class CoffeeReference {
         matchers = [
             .roasters:  Self.buildMatchers(from: data.roasters),
             .countries: Self.buildMatchers(from: data.countries),
+            .regions:   Self.buildMatchers(from: data.regions),
             .processes: Self.buildMatchers(from: data.processes),
             .varieties: Self.buildMatchers(from: data.varieties)
         ]
