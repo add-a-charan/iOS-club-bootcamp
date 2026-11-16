@@ -4,7 +4,7 @@ import Vision
 // A small container that holds one line of text Vision reads from a photo
 struct OCRLine {
 	let text: String
-	// boundingBox is a rectangle discribing where the text sits in the photo
+	// boundingBox is a rectangle describing where the text sits in the photo
 	// Normalized 0-1 coordinates
 	let boundingBox: CGRect
 }
@@ -12,7 +12,7 @@ struct OCRLine {
 // A dedicated object responsible for scanning text from photos
 final class CoffeeScanner {
 	// Runs Vision OCR on one photo and returns every recognized line
-	func recognizeLines(in image: UIImage) async throws -> [OCRline] {
+	func recognizeLines(in image: UIImage) async throws -> [OCRLine] {
 		// tries to extract raw data from the UIImage; returns empty array if fails
 		guard let cgImage = image.cgImage else {
 			return []
@@ -37,7 +37,7 @@ final class CoffeeScanner {
 			let observations = request.results ?? []
 			// Extracting the best text candidate
 			return observations.compactMap { observation in
-				gaurd let best = observation.topCandidates(1).first else { return nil }
+				guard let best = observation.topCandidates(1).first else { return nil }
 				return OCRLine(text: best.string, boundingBox: observation.boundingBox)
 			}.value
 		}
@@ -46,7 +46,7 @@ final class CoffeeScanner {
 
 // UIImage and Vision describe rotation with two different enums
 extension CGImagePropertyOrientation {
-	init(_orientation: UIImage.Orientation) {
+	init(_ orientation: UIImage.Orientation) {
 		switch orientation {
 			case .up:            self = .up
       case .upMirrored:    self = .upMirrored
