@@ -11,9 +11,10 @@ struct OCRLine {
 }
 
 enum OriginType: String {
-    case fieldBlend
-    case singleOrigin
-    case blend
+    case fieldBlend = "Field Blend"
+    case singleOrigin = "Single Origin"
+    case blend = "Blend"
+    case mixedOrigin = "Mixed Origin"
 }
 
 /// Parsed coffee-label information. Fields remain empty/nil when OCR finds no reliable value.
@@ -65,7 +66,7 @@ final class CoffeeScanner {
 		return try await Task.detached(priority: .userInitiated) {
 			let request = VNRecognizeTextRequest()
 			request.recognitionLevel = .accurate
-			request.usesLanguageCorrection = false
+			request.usesLanguageCorrection = true
 
 			let handler = VNImageRequestHandler(
 				cgImage: cgImage,
@@ -124,16 +125,19 @@ final class CoffeeScanner {
 		let texts = lines.map(\.text)
 		var details = CoffeeDetails()
 
-		// List-based fields. No match leaves the field empty/nil.
-		details.roaster = reference.matches(in: texts, for: .roasters).first ?? ""
-		details.countryOfOrigin = reference.matches(in: texts, for: .countries).first
-        details.region = reference.matches(in: texts, for: .regions).first 
-		details.processes = joined(reference.matches(in: texts, for: .processes))
-		details.varieties = joined(reference.matches(in: texts, for: .varieties))
+        // List-based fields. No match leaves the field empty/nil.
+        let matchedCountries = reference.matches(in: texts, for: .countries)
+        let matchedRegions = reference.matches(in: texts, for: .regions)
 
-		// Keyword- and regex-based fields.
-		details.originType = findOriginType(in: texts)
-		details.elevation = texts.compactMap { parseElevation(from: $0) }.first
+        details.roaster = reference.matches(in: texts, for: .roasters).first ?? ""
+        details.countryOfOrigin = joined(matchedCountries)
+        details.region = joined(matchedRegions)
+        details.processes = joined(reference.matches(in: texts, for: .processes))
+        details.varieties = joined(reference.matches(in: texts, for: .varieties))
+
+        // Keyword- and regex-based fields.
+        details.originType = findOriginType(in: texts, countries: matchedCountries, regions: matchedRegions)
+        details.elevation = texts.compactMap { parseElevation(from: $0) }.first
 
 		// Track lines already explained by other fields so they are not selected as
 		// the coffee name.
@@ -201,13 +205,38 @@ final class CoffeeScanner {
 		return parseElevation(from: text) != nil
 	}
 
-	private func findOriginType(in texts: [String]) -> OriginType? {
-		let all = texts.joined(separator: " ")
-		if containsWord("field blend", in: all) { return .fieldBlend }
-		if containsWord("single origin", in: all) { return .singleOrigin }
-		if containsWord("blend", in: all) { return .blend }
-		return nil
-	}
+    private func findOriginType(
+        in texts: [String],
+        countries: [String],
+        regions: [String]
+    ) -> OriginType? {
+        let all = texts.joined(separator: " ")
+        
+        let placeCount = max(countries.count, regions.count)
+        let hasMultiplePlaces = placeCount > 1
+        
+        // 1. Field Blend: explicitly stated by the farmer/roaster
+        if containsWord("field blend", in: all) {
+            return .fieldBlend
+        }
+        
+        // 2. Mixed Origin: explicitly stated, OR we detected 2+ countries/regions
+        if containsWord("mixed origin", in: all) || hasMultiplePlaces {
+            return .mixedOrigin
+        }
+        
+        // 3. Blend: explicitly stated (and implicitly 1 or 0 places found, otherwise caught above)
+        if containsWord("blend", in: all) {
+            return .blend
+        }
+        
+        // 4. Single Origin: explicitly stated, uses "origin" label, OR exactly 1 place found
+        if containsWord("single origin", in: all) || containsWord("origin", in: all) || placeCount == 1 {
+            return .singleOrigin
+        }
+        
+        return nil
+    }
 
 	private func containsWord(_ word: String, in text: String) -> Bool {
 		text.range(
