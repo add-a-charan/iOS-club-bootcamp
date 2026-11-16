@@ -1,558 +1,1775 @@
-{ "roasters": [
-    { "name": "Folgers" },
-    { "name": "Maxwell House" },
-    { "name": "Eight O'Clock Coffee" },
-    { "name": "Café Bustelo" },
-    { "name": "Community Coffee" },
-    { "name": "New England Coffee" },
-    { "name": "Chock full o'Nuts" },
-    { "name": "Dunkin'" },
-    { "name": "Starbucks" },
-    { "name": "Peet's Coffee" },
-    { "name": "Caribou Coffee" },
-    { "name": "Seattle's Best Coffee" },
-    { "name": "McCafé" },
-    { "name": "Death Wish Coffee" },
-    { "name": "Black Rifle Coffee Company" },
-    { "name": "La Colombe" },
-    { "name": "Intelligentsia" },
-    { "name": "Stumptown Coffee Roasters" },
-    { "name": "Counter Culture Coffee" },
-    { "name": "Blue Bottle Coffee" },
-    { "name": "Verve Coffee Roasters" },
-    { "name": "Equator Coffees" },
-    { "name": "Allegro Coffee" },
-    { "name": "Kicking Horse Coffee" },
-    { "name": "Equal Exchange" },
-    { "name": "Café Altura" },
-    { "name": "Copper Moon Coffee" },
-    { "name": "Cameron's Coffee" },
-    { "name": "Don Francisco's Coffee" },
-    { "name": "illy" },
-    { "name": "Lavazza" },
-    { "name": "Nespresso" },
-    { "name": "Nescafé" },
-    { "name": "Fresh Market Coffee" },
-    { "name": "Wegmans Coffee" },
-    { "name": "Trader Joe's Coffee" },
-    { "name": "Whole Foods Market 365 Coffee" },
-    { "name": "Kirkland Signature Coffee" },
-    { "name": "Private Selection Coffee" },
-    { "name": "Good & Gather Coffee" },
-    { "name": "Simple Truth Coffee" },
-    { "name": "Market Pantry Coffee" },
-    { "name": "Great Value Coffee" },
-    { "name": "Member's Mark Coffee" },
-    { "name": "Signature Select Coffee" },
-    { "name": "Publix Premium Coffee" },
-    { "name": "H-E-B Café Ole" },
-    { "name": "Texas Coffee Traders" },
-    { "name": "Onyx Coffee Lab" },
-    { "name": "George Howell Coffee" },
-    { "name": "Passenger Coffee" },
-    { "name": "Black & White Coffee Roasters" },
-    { "name": "Heart Coffee Roasters" },
-    { "name": "Madcap Coffee Company" },
-    { "name": "Sweet Bloom Coffee Roasters" },
-    { "name": "Bird Rock Coffee Roasters" },
-    { "name": "Methodical Coffee" },
-    { "name": "Metric Coffee" },
-    { "name": "Little Wolf Coffee" },
-    { "name": "Ruby Coffee Roasters" },
-    { "name": "Olympia Coffee" },
-    { "name": "Coava Coffee Roasters" },
-    { "name": "Ritual Coffee Roasters" },
-    { "name": "Sightglass Coffee" },
-    { "name": "Four Barrel Coffee" },
-    { "name": "Chromatic Coffee" },
-    { "name": "Temple Coffee Roasters" },
-    { "name": "Klatch Coffee" },
-    { "name": "PT's Coffee" },
-    { "name": "Revelator Coffee" },
-    { "name": "Greater Goods Coffee Roasters" },
-    { "name": "Huckleberry Roasters" },
-    { "name": "Corvus Coffee Roasters" },
-    { "name": "Novo Coffee" },
-    { "name": "Boxcar Coffee Roasters" },
-    { "name": "Proud Mary Coffee" },
-    { "name": "Devoción" },
-    { "name": "Joe Coffee Company" },
-    { "name": "Birch Coffee" },
-    { "name": "Partners Coffee" },
-    { "name": "Sey Coffee" },
-    { "name": "Joe Van Gogh" },
-    { "name": "Doma Coffee Roasting Company" },
-    { "name": "Caffe Vita" },
-    { "name": "Caffe Umbria" },
-    { "name": "Victrola Coffee Roasters" },
-    { "name": "Dillanos Coffee Roasters" },
-    { "name": "Bubba's Coffee" },
-    { "name": "Portland Coffee Roasters" },
-    { "name": "Nossa Familia Coffee" },
-    { "name": "Roseline Coffee" },
-    { "name": "Push x Pull" },
-    { "name": "Sterling Coffee Roasters" },
-    { "name": "Moxie Coffee Co." },
-    { "name": "Red Rooster Coffee" },
-    { "name": "Abracadabra Coffee Co." },
-    { "name": "Brandywine Coffee Roasters" },
-    { "name": "Little Waves Coffee Roasters" },
-    { "name": "Joe Bean Coffee Roasters" },
-    { "name": "Gimme! Coffee" },
-    { "name": "Finger Lakes Coffee Roasters" },
-    { "name": "Atomic Coffee Roasters" },
-    { "name": "Broadsheet Coffee Roasters" },
-    { "name": "Gracenote Coffee" },
-    { "name": "Barrington Coffee Roasting Company" },
-    { "name": "Speedwell Coffee" },
-    { "name": "ReAnimator Coffee" },
-    { "name": "Elixr Coffee" },
-    { "name": "Ultimo Coffee" },
-    { "name": "Rothrock Coffee" },
-    { "name": "Square One Coffee" },
-    { "name": "Dancing Goats Coffee" },
-    { "name": "Portrait Coffee" },
-    { "name": "East Pole Coffee Co." },
-    { "name": "Brash Coffee" },
-    { "name": "Radio Roasters Coffee" },
-    { "name": "Bellwood Coffee" },
-    { "name": "Perc Coffee" },
-    { "name": "Sump Coffee" },
-    { "name": "Blueprint Coffee" },
-    { "name": "Kaldi's Coffee" },
-    { "name": "Quills Coffee" },
-    { "name": "Sunergos Coffee" },
-    { "name": "Good Folks Coffee" },
-    { "name": "Deeper Roots Coffee" },
-    { "name": "La Terza Artisan Coffee Roasterie" },
-    { "name": "Rising Star Coffee Roasters" },
-    { "name": "Phoenix Coffee" },
-    { "name": "Duck-Rabbit Coffee" },
-    { "name": "Mad Priest Coffee Roasters" },
-    { "name": "Vibrant Coffee Roasters" },
-    { "name": "Tim Hortons" },
-    { "name": "Second Cup" },
-    { "name": "Balzac's Coffee Roasters" },
-    { "name": "49th Parallel Coffee Roasters" },
-    { "name": "Monogram Coffee" },
-    { "name": "Phil & Sebastian Coffee Roasters" },
-    { "name": "Detour Coffee Roasters" },
-    { "name": "Pilot Coffee Roasters" },
-    { "name": "Propeller Coffee Co." },
-    { "name": "Anchored Coffee" },
-    { "name": "Ethical Bean Coffee" },
-    { "name": "Java Blend Coffee Roasters" },
-    { "name": "Escape Coffee Roasters" },
-    { "name": "Traffic Coffee" },
-    { "name": "De Mello Coffee" },
-    { "name": "Fernwood Coffee" },
-    { "name": "Rosso Coffee Roasters" },
-    { "name": "Moving Coffee" },
-    { "name": "Rabbit Hole Roasters" },
-    { "name": "Reunion Coffee Roasters" },
-    { "name": "Café de Olla" },
-    { "name": "Café Garat" },
-    { "name": "Café Punta del Cielo" },
-    { "name": "Café La Finca" },
-    { "name": "Café Britt" },
-    { "name": "Doka Estate" },
-    { "name": "Café Rey" },
-    { "name": "Café Volio" },
-    { "name": "Café 1820" },
-    { "name": "Café Quetzal" },
-    { "name": "Café Barista" },
-    { "name": "Café León" },
-    { "name": "Café Santo Domingo" },
-    { "name": "Café Monte Real" },
-    { "name": "Café Don Payo" },
-    { "name": "Café Oro" },
-    { "name": "Juan Valdez" },
-    { "name": "Pergamino Café" },
-    { "name": "Amor Perfecto" },
-    { "name": "Café Quindío" },
-    { "name": "Café San Alberto" },
-    { "name": "Café Cultor" },
-    { "name": "Azahar Coffee" },
-    { "name": "Catación Pública" },
-    { "name": "Café Libertario" },
-    { "name": "Café La Palma" },
-    { "name": "Café Mesa de los Santos" },
-    { "name": "Orfeu Cafés" },
-    { "name": "Coffee Lab" },
-    { "name": "Santo Grão" },
-    { "name": "Unique Cafés" },
-    { "name": "3 Corações" },
-    { "name": "Melitta Brazil" },
-    { "name": "Café do Ponto" },
-    { "name": "Café Pilão" },
-    { "name": "Café Santa Clara" },
-    { "name": "Café Caboclo" },
-    { "name": "Café Martínez" },
-    { "name": "Cabrales" },
-    { "name": "Puerto Blest" },
-    { "name": "Lattente" },
-    { "name": "Flat & White" },
-    { "name": "Café Registrado" },
-    { "name": "Costa Coffee" },
-    { "name": "Caffè Nero" },
-    { "name": "Pret A Manger" },
-    { "name": "Square Mile Coffee Roasters" },
-    { "name": "Origin Coffee Roasters" },
-    { "name": "Workshop Coffee" },
-    { "name": "Ozone Coffee" },
-    { "name": "Monmouth Coffee Company" },
-    { "name": "Has Bean Coffee" },
-    { "name": "Climpson & Sons" },
-    { "name": "Assembly Coffee" },
-    { "name": "Caravan Coffee Roasters" },
-    { "name": "Grind" },
-    { "name": "Extract Coffee Roasters" },
-    { "name": "200 Degrees Coffee" },
-    { "name": "Rave Coffee" },
-    { "name": "Pact Coffee" },
-    { "name": "Union Hand-Roasted Coffee" },
-    { "name": "Café Direct" },
-    { "name": "AMT Coffee" },
-    { "name": "Bailies Coffee Roasters" },
-    { "name": "Belfast Coffee Roasters" },
-    { "name": "Cloud Picker Coffee" },
-    { "name": "3fe Coffee" },
-    { "name": "Coffeeangel" },
-    { "name": "Badger & Dodo" },
-    { "name": "Roasted Brown" },
-    { "name": "The Coffee Collective" },
-    { "name": "La Cabra" },
-    { "name": "April Coffee Roasters" },
-    { "name": "Tim Wendelboe" },
-    { "name": "Fuglen" },
-    { "name": "Supreme Roastworks" },
-    { "name": "Kaffa" },
-    { "name": "Solberg & Hansen" },
-    { "name": "Drop Coffee" },
-    { "name": "Johan & Nyström" },
-    { "name": "Löfbergs" },
-    { "name": "Koppi" },
-    { "name": "Da Matteo" },
-    { "name": "Gringo Nordic" },
-    { "name": "Morgon Coffee Roasters" },
-    { "name": "Lykke Kaffegårdar" },
-    { "name": "Kahls Kaffe" },
-    { "name": "Arvid Nordquist" },
-    { "name": "Paulig" },
-    { "name": "Café Bar" },
-    { "name": "Coffee Fellows" },
-    { "name": "The Barn" },
-    { "name": "Five Elephant" },
-    { "name": "Bonanza Coffee Roasters" },
-    { "name": "Five Senses Coffee" },
-    { "name": "Flying Roasters" },
-    { "name": "19grams" },
-    { "name": "Röststätte" },
-    { "name": "Man vs Machine" },
-    { "name": "JB Kaffee" },
-    { "name": "Schamong Kaffee" },
-    { "name": "Moxxa Caffè" },
-    { "name": "Public Coffee Roasters" },
-    { "name": "Friedhats Coffee Roasters" },
-    { "name": "Manhattan Coffee Roasters" },
-    { "name": "Doubleshot" },
-    { "name": "Lot Sixty One" },
-    { "name": "Giraffe Coffee Roasters" },
-    { "name": "Bocca Coffee" },
-    { "name": "Dak Coffee Roasters" },
-    { "name": "Rum Baba" },
-    { "name": "A Matter of Concrete" },
-    { "name": "Back to Black" },
-    { "name": "Caffenation" },
-    { "name": "MOK Coffee" },
-    { "name": "Wide Awake Coffee" },
-    { "name": "Café Tasse" },
-    { "name": "Gardelli Specialty Coffees" },
-    { "name": "Ditta Artigianale" },
-    { "name": "Tchibo" },
-    { "name": "Jacobs" },
-    { "name": "Douwe Egberts" },
-    { "name": "Moccona" },
-    { "name": "Julius Meinl" },
-    { "name": "Segafredo Zanetti" },
-    { "name": "Kimbo" },
-    { "name": "Hausbrandt" },
-    { "name": "Caffè Vergnano" },
-    { "name": "Pellini" },
-    { "name": "Caffè Borbone" },
-    { "name": "Caffè Mauro" },
-    { "name": "Passalacqua" },
-    { "name": "Lucaffé" },
-    { "name": "Caffè Motta" },
-    { "name": "Caffè Carraro" },
-    { "name": "Caffè Guglielmo" },
-    { "name": "Caffè Trombetta" },
-    { "name": "Caffè Haiti Roma" },
-    { "name": "Caffè del Doge" },
-    { "name": "Caffè Florian" },
-    { "name": "Caffè Pascucci" },
-    { "name": "Caffè Costadoro" },
-    { "name": "Caffè Molinari" },
-    { "name": "Caffè Toraldo" },
-    { "name": "Caffè Izzo" },
-    { "name": "Caffè New York" },
-    { "name": "Caffè Musetti" },
-    { "name": "Caffè Hardy" },
-    { "name": "Caffè Diemme" },
-    { "name": "Caffè Roen" },
-    { "name": "Caffè Piansa" },
-    { "name": "Caffè Gioia" },
-    { "name": "Caffè Moreno" },
-    { "name": "Caffè Barbera" },
-    { "name": "Caffè Kenon" },
-    { "name": "Caffè Trucillo" },
-    { "name": "Caffè Passalacqua" },
-    { "name": "Coffee Collective" },
-    { "name": "Coffee Island" },
-    { "name": "Taf Coffee" },
-    { "name": "Santo Coffee" },
-    { "name": "Mikel Coffee Company" },
-    { "name": "Kawa" },
-    { "name": "Coffeein" },
-    { "name": "Café Vergnano" },
-    { "name": "Kronotrop" },
-    { "name": "Probador Colectiva" },
-    { "name": "Petra Roasting Co." },
-    { "name": "Coffee Sapiens" },
-    { "name": "Coffee Department" },
-    { "name": "Coffee Room" },
-    { "name": "Truth Coffee Roasting" },
-    { "name": "Origin Coffee Roasting" },
-    { "name": "Father Coffee" },
-    { "name": "Terbodore Coffee Roasters" },
-    { "name": "Rosetta Roastery" },
-    { "name": "Bluebird Coffee Roastery" },
-    { "name": "Bean There Coffee Company" },
-    { "name": "Deluxe Coffeeworks" },
-    { "name": "Ciro Beverage Solutions" },
-    { "name": "Wesley & Co." },
-    { "name": "Tomoca Coffee" },
-    { "name": "Kaldi's Coffee Ethiopia" },
-    { "name": "Moplaco" },
-    { "name": "Garden of Coffee" },
-    { "name": "Kafa Forest Coffee" },
-    { "name": "Dormans Coffee" },
-    { "name": "Java House" },
-    { "name": "Artcaffé" },
-    { "name": "Spring Valley Coffee" },
-    { "name": "Sasini Coffee" },
-    { "name": "Kawa Koffee" },
-    { "name": "Café Javas" },
-    { "name": "RAW Coffee Company" },
-    { "name": "Nightjar Coffee" },
-    { "name": "Seven Fortunes Coffee Roasters" },
-    { "name": "The Espresso Lab" },
-    { "name": "Boon Coffee" },
-    { "name": "Camel Step" },
-    { "name": "Barn's" },
-    { "name": "Kiffa Coffee" },
-    { "name": "Qahwa 9" },
-    { "name": "Caffeine Lab" },
-    { "name": "Brew92" },
-    { "name": "Bacha Coffee" },
-    { "name": "Kava & Chai" },
-    { "name": "Akha Ama Coffee" },
-    { "name": "Roots Coffee" },
-    { "name": "Glitch Coffee & Roasters" },
-    { "name": "Onibus Coffee" },
-    { "name": "Maruyama Coffee" },
-    { "name": "Kurasu" },
-    { "name": "% Arabica" },
-    { "name": "Doutor Coffee" },
-    { "name": "Tully's Coffee" },
-    { "name": "Sarutahiko Coffee" },
-    { "name": "Ogawa Coffee" },
-    { "name": "Horiguchi Coffee" },
-    { "name": "Blue Bottle Coffee Japan" },
-    { "name": "Coffee County" },
-    { "name": "LiLo Coffee Roasters" },
-    { "name": "Mel Coffee Roasters" },
-    { "name": "Weekenders Coffee" },
-    { "name": "WEEKENDERS COFFEE" },
-    { "name": "Leaves Coffee Roasters" },
-    { "name": "Unlimited Coffee Roasters" },
-    { "name": "Coffee Wrights" },
-    { "name": "Bongen Coffee" },
-    { "name": "Rec Coffee" },
-    { "name": "Fritz Coffee Company" },
-    { "name": "Momos Coffee" },
-    { "name": "Coffee Libre" },
-    { "name": "Terarosa" },
-    { "name": "Center Coffee" },
-    { "name": "Felt Coffee" },
-    { "name": "Lowkey Coffee" },
-    { "name": "Anthracite Coffee" },
-    { "name": "Namusairo" },
-    { "name": "Coffee Montage" },
-    { "name": "Deep Blue Lake" },
-    { "name": "Nylon Coffee Roasters" },
-    { "name": "Tiong Hoe Specialty Coffee" },
-    { "name": "Apartment Coffee" },
-    { "name": "PPP Coffee" },
-    { "name": "Common Man Coffee Roasters" },
-    { "name": "Alchemist" },
-    { "name": "Yardstick Coffee" },
-    { "name": "Toby's Estate" },
-    { "name": "OldTown White Coffee" },
-    { "name": "Highlands Coffee" },
-    { "name": "The Coffee House" },
-    { "name": "Trung Nguyen" },
-    { "name": "Kopi Kenangan" },
-    { "name": "Anomali Coffee" },
-    { "name": "Tanamera Coffee" },
-    { "name": "Kopi Luwak brands" },
-    { "name": "Fore Coffee" },
-    { "name": "Luckin Coffee" },
-    { "name": "Cotti Coffee" },
-    { "name": "Manner Coffee" },
-    { "name": "M Stand" },
-    { "name": "Seesaw Coffee" },
-    { "name": "M2M Coffee" },
-    { "name": "Mellower Coffee" },
-    { "name": "Fisheye" },
-    { "name": "Coffee Buff" },
-    { "name": "Metal Hands" },
-    { "name": "Fika Fika Cafe" },
-    { "name": "Simple Kaffa" },
-    { "name": "VWI by Chad Wang" },
-    { "name": "Rufous Coffee" },
-    { "name": "Coffee Sind" },
-    { "name": "Coffee Stopover" },
-    { "name": "Cama Café" },
-    { "name": "Black as Chocolate" },
-    { "name": "Coffee Law" },
-    { "name": "Blue Tokai Coffee Roasters" },
-    { "name": "Third Wave Coffee" },
-    { "name": "Sleepy Owl Coffee" },
-    { "name": "Rage Coffee" },
-    { "name": "Country Bean" },
-    { "name": "Continental Coffee" },
-    { "name": "Tata Coffee" },
-    { "name": "Cothas Coffee" },
-    { "name": "Leo Coffee" },
-    { "name": "Narasu's Coffee" },
-    { "name": "KC Roasters" },
-    { "name": "Subko Coffee Roasters" },
-    { "name": "Naivo Coffee Roasters" },
-    { "name": "Grey Soul Coffee Roasters" },
-    { "name": "Araku Coffee" },
-    { "name": "Savorworks Coffee" },
-    { "name": "Bloom Coffee Roasters" },
-    { "name": "Corridor Seven Coffee Roasters" },
-    { "name": "Black Baza Coffee" },
-    { "name": "Hunkal Heights Coffee" },
-    { "name": "Maverick & Farmer" },
-    { "name": "Marc's Coffee" },
-    { "name": "The Caffeine Baar" },
-    { "name": "Himalayan Java" },
-    { "name": "Karma Coffee" },
-    { "name": "Karuna Coffee" },
-    { "name": "Coffee Wagera" },
-    { "name": "Esquires Coffee" },
-    { "name": "North End Coffee Roasters" },
-    { "name": "Tabaq Coffee" },
-    { "name": "Caffeine Coffee Roasters" },
-    { "name": "Merlo Coffee" },
-    { "name": "Campos Coffee" },
-    { "name": "Allpress Espresso" },
-    { "name": "Coffee Supreme" },
-    { "name": "ONA Coffee" },
-    { "name": "Seven Seeds" },
-    { "name": "Market Lane Coffee" },
-    { "name": "Single O" },
-    { "name": "Industry Beans" },
-    { "name": "St Ali" },
-    { "name": "Axil Coffee Roasters" },
-    { "name": "Code Black Coffee" },
-    { "name": "Small Batch Roasting Co." },
-    { "name": "Dukes Coffee Roasters" },
-    { "name": "Seven Miles Coffee Roasters" },
-    { "name": "Genovese Coffee" },
-    { "name": "Vittoria Coffee" },
-    { "name": "Grinders Coffee" },
-    { "name": "Di Bella Coffee" },
-    { "name": "The Coffee Club" },
-    { "name": "Flight Coffee" },
-    { "name": "People's Coffee" },
-    { "name": "Havana Coffee Works" },
-    { "name": "C4 Coffee" },
-    { "name": "Good Fortune Coffee" },
-    { "name": "Kōkako Organic Coffee" },
-    { "name": "Coffee Culture" },
-    { "name": "Jamaica Blue" },
-    { "name": "Nestlé" },
-    { "name": "JDE Peet's" },
-    { "name": "The Coffee Bean & Tea Leaf" },
-    { "name": "Gloria Jean's Coffees" },
-    { "name": "Café Coffee Day" },
-    { "name": "Paul Bassett" },
-    { "name": "Juan Valdez Café" }
+{
+  "roasters": [
+    {
+      "name": "Folgers"
+    },
+    {
+      "name": "Maxwell House"
+    },
+    {
+      "name": "Eight O'Clock Coffee"
+    },
+    {
+      "name": "Café Bustelo"
+    },
+    {
+      "name": "Community Coffee"
+    },
+    {
+      "name": "New England Coffee"
+    },
+    {
+      "name": "Chock full o'Nuts"
+    },
+    {
+      "name": "Dunkin'"
+    },
+    {
+      "name": "Starbucks"
+    },
+    {
+      "name": "Peet's Coffee"
+    },
+    {
+      "name": "Caribou Coffee"
+    },
+    {
+      "name": "Seattle's Best Coffee"
+    },
+    {
+      "name": "McCafé"
+    },
+    {
+      "name": "Death Wish Coffee"
+    },
+    {
+      "name": "Black Rifle Coffee Company"
+    },
+    {
+      "name": "La Colombe"
+    },
+    {
+      "name": "Intelligentsia"
+    },
+    {
+      "name": "Stumptown Coffee Roasters"
+    },
+    {
+      "name": "Counter Culture Coffee"
+    },
+    {
+      "name": "Blue Bottle Coffee"
+    },
+    {
+      "name": "Verve Coffee Roasters"
+    },
+    {
+      "name": "Equator Coffees"
+    },
+    {
+      "name": "Allegro Coffee"
+    },
+    {
+      "name": "Kicking Horse Coffee"
+    },
+    {
+      "name": "Equal Exchange"
+    },
+    {
+      "name": "Café Altura"
+    },
+    {
+      "name": "Copper Moon Coffee"
+    },
+    {
+      "name": "Cameron's Coffee"
+    },
+    {
+      "name": "Don Francisco's Coffee"
+    },
+    {
+      "name": "illy"
+    },
+    {
+      "name": "Lavazza"
+    },
+    {
+      "name": "Nespresso"
+    },
+    {
+      "name": "Nescafé"
+    },
+    {
+      "name": "Fresh Market Coffee"
+    },
+    {
+      "name": "Wegmans Coffee"
+    },
+    {
+      "name": "Trader Joe's Coffee"
+    },
+    {
+      "name": "Whole Foods Market 365 Coffee"
+    },
+    {
+      "name": "Kirkland Signature Coffee"
+    },
+    {
+      "name": "Private Selection Coffee"
+    },
+    {
+      "name": "Good & Gather Coffee"
+    },
+    {
+      "name": "Simple Truth Coffee"
+    },
+    {
+      "name": "Market Pantry Coffee"
+    },
+    {
+      "name": "Great Value Coffee"
+    },
+    {
+      "name": "Member's Mark Coffee"
+    },
+    {
+      "name": "Signature Select Coffee"
+    },
+    {
+      "name": "Publix Premium Coffee"
+    },
+    {
+      "name": "H-E-B Café Ole"
+    },
+    {
+      "name": "Texas Coffee Traders"
+    },
+    {
+      "name": "Onyx Coffee Lab"
+    },
+    {
+      "name": "George Howell Coffee"
+    },
+    {
+      "name": "Passenger Coffee"
+    },
+    {
+      "name": "Black & White Coffee Roasters"
+    },
+    {
+      "name": "Heart Coffee Roasters"
+    },
+    {
+      "name": "Madcap Coffee Company"
+    },
+    {
+      "name": "Sweet Bloom Coffee Roasters"
+    },
+    {
+      "name": "Bird Rock Coffee Roasters"
+    },
+    {
+      "name": "Methodical Coffee"
+    },
+    {
+      "name": "Metric Coffee"
+    },
+    {
+      "name": "Little Wolf Coffee"
+    },
+    {
+      "name": "Ruby Coffee Roasters"
+    },
+    {
+      "name": "Olympia Coffee"
+    },
+    {
+      "name": "Coava Coffee Roasters"
+    },
+    {
+      "name": "Ritual Coffee Roasters"
+    },
+    {
+      "name": "Sightglass Coffee"
+    },
+    {
+      "name": "Four Barrel Coffee"
+    },
+    {
+      "name": "Chromatic Coffee"
+    },
+    {
+      "name": "Temple Coffee Roasters"
+    },
+    {
+      "name": "Klatch Coffee"
+    },
+    {
+      "name": "PT's Coffee"
+    },
+    {
+      "name": "Revelator Coffee"
+    },
+    {
+      "name": "Greater Goods Coffee Roasters"
+    },
+    {
+      "name": "Huckleberry Roasters"
+    },
+    {
+      "name": "Corvus Coffee Roasters"
+    },
+    {
+      "name": "Novo Coffee"
+    },
+    {
+      "name": "Boxcar Coffee Roasters"
+    },
+    {
+      "name": "Proud Mary Coffee"
+    },
+    {
+      "name": "Devoción"
+    },
+    {
+      "name": "Joe Coffee Company"
+    },
+    {
+      "name": "Birch Coffee"
+    },
+    {
+      "name": "Partners Coffee"
+    },
+    {
+      "name": "Sey Coffee"
+    },
+    {
+      "name": "Joe Van Gogh"
+    },
+    {
+      "name": "Doma Coffee Roasting Company"
+    },
+    {
+      "name": "Caffe Vita"
+    },
+    {
+      "name": "Caffe Umbria"
+    },
+    {
+      "name": "Victrola Coffee Roasters"
+    },
+    {
+      "name": "Dillanos Coffee Roasters"
+    },
+    {
+      "name": "Bubba's Coffee"
+    },
+    {
+      "name": "Portland Coffee Roasters"
+    },
+    {
+      "name": "Nossa Familia Coffee"
+    },
+    {
+      "name": "Roseline Coffee"
+    },
+    {
+      "name": "Push x Pull"
+    },
+    {
+      "name": "Sterling Coffee Roasters"
+    },
+    {
+      "name": "Moxie Coffee Co."
+    },
+    {
+      "name": "Red Rooster Coffee"
+    },
+    {
+      "name": "Abracadabra Coffee Co."
+    },
+    {
+      "name": "Brandywine Coffee Roasters",
+      "aliases": [
+        "Brandywine Coffee",
+        "Brandywine"
+      ]
+    },
+    {
+      "name": "Little Waves Coffee Roasters"
+    },
+    {
+      "name": "Joe Bean Coffee Roasters"
+    },
+    {
+      "name": "Gimme! Coffee"
+    },
+    {
+      "name": "Finger Lakes Coffee Roasters"
+    },
+    {
+      "name": "Atomic Coffee Roasters"
+    },
+    {
+      "name": "Broadsheet Coffee Roasters"
+    },
+    {
+      "name": "Gracenote Coffee"
+    },
+    {
+      "name": "Barrington Coffee Roasting Company"
+    },
+    {
+      "name": "Speedwell Coffee"
+    },
+    {
+      "name": "ReAnimator Coffee"
+    },
+    {
+      "name": "Elixr Coffee"
+    },
+    {
+      "name": "Ultimo Coffee"
+    },
+    {
+      "name": "Rothrock Coffee"
+    },
+    {
+      "name": "Square One Coffee"
+    },
+    {
+      "name": "Dancing Goats Coffee"
+    },
+    {
+      "name": "Portrait Coffee"
+    },
+    {
+      "name": "East Pole Coffee Co."
+    },
+    {
+      "name": "Brash Coffee"
+    },
+    {
+      "name": "Radio Roasters Coffee"
+    },
+    {
+      "name": "Bellwood Coffee"
+    },
+    {
+      "name": "Perc Coffee"
+    },
+    {
+      "name": "Sump Coffee"
+    },
+    {
+      "name": "Blueprint Coffee"
+    },
+    {
+      "name": "Kaldi's Coffee"
+    },
+    {
+      "name": "Quills Coffee"
+    },
+    {
+      "name": "Sunergos Coffee"
+    },
+    {
+      "name": "Good Folks Coffee"
+    },
+    {
+      "name": "Deeper Roots Coffee"
+    },
+    {
+      "name": "La Terza Artisan Coffee Roasterie"
+    },
+    {
+      "name": "Rising Star Coffee Roasters"
+    },
+    {
+      "name": "Phoenix Coffee"
+    },
+    {
+      "name": "Duck-Rabbit Coffee"
+    },
+    {
+      "name": "Mad Priest Coffee Roasters"
+    },
+    {
+      "name": "Vibrant Coffee Roasters"
+    },
+    {
+      "name": "Tim Hortons"
+    },
+    {
+      "name": "Second Cup"
+    },
+    {
+      "name": "Balzac's Coffee Roasters"
+    },
+    {
+      "name": "49th Parallel Coffee Roasters"
+    },
+    {
+      "name": "Monogram Coffee"
+    },
+    {
+      "name": "Phil & Sebastian Coffee Roasters"
+    },
+    {
+      "name": "Detour Coffee Roasters"
+    },
+    {
+      "name": "Pilot Coffee Roasters"
+    },
+    {
+      "name": "Propeller Coffee Co."
+    },
+    {
+      "name": "Anchored Coffee"
+    },
+    {
+      "name": "Ethical Bean Coffee"
+    },
+    {
+      "name": "Java Blend Coffee Roasters"
+    },
+    {
+      "name": "Escape Coffee Roasters"
+    },
+    {
+      "name": "Traffic Coffee"
+    },
+    {
+      "name": "De Mello Coffee"
+    },
+    {
+      "name": "Fernwood Coffee"
+    },
+    {
+      "name": "Rosso Coffee Roasters"
+    },
+    {
+      "name": "Moving Coffee"
+    },
+    {
+      "name": "Rabbit Hole Roasters"
+    },
+    {
+      "name": "Reunion Coffee Roasters"
+    },
+    {
+      "name": "Café de Olla"
+    },
+    {
+      "name": "Café Garat"
+    },
+    {
+      "name": "Café Punta del Cielo"
+    },
+    {
+      "name": "Café La Finca"
+    },
+    {
+      "name": "Café Britt"
+    },
+    {
+      "name": "Doka Estate"
+    },
+    {
+      "name": "Café Rey"
+    },
+    {
+      "name": "Café Volio"
+    },
+    {
+      "name": "Café 1820"
+    },
+    {
+      "name": "Café Quetzal"
+    },
+    {
+      "name": "Café Barista"
+    },
+    {
+      "name": "Café León"
+    },
+    {
+      "name": "Café Santo Domingo"
+    },
+    {
+      "name": "Café Monte Real"
+    },
+    {
+      "name": "Café Don Payo"
+    },
+    {
+      "name": "Café Oro"
+    },
+    {
+      "name": "Juan Valdez"
+    },
+    {
+      "name": "Pergamino Café"
+    },
+    {
+      "name": "Amor Perfecto"
+    },
+    {
+      "name": "Café Quindío"
+    },
+    {
+      "name": "Café San Alberto"
+    },
+    {
+      "name": "Café Cultor"
+    },
+    {
+      "name": "Azahar Coffee"
+    },
+    {
+      "name": "Catación Pública"
+    },
+    {
+      "name": "Café Libertario"
+    },
+    {
+      "name": "Café La Palma"
+    },
+    {
+      "name": "Café Mesa de los Santos"
+    },
+    {
+      "name": "Orfeu Cafés"
+    },
+    {
+      "name": "Coffee Lab"
+    },
+    {
+      "name": "Santo Grão"
+    },
+    {
+      "name": "Unique Cafés"
+    },
+    {
+      "name": "3 Corações"
+    },
+    {
+      "name": "Melitta Brazil"
+    },
+    {
+      "name": "Café do Ponto"
+    },
+    {
+      "name": "Café Pilão"
+    },
+    {
+      "name": "Café Santa Clara"
+    },
+    {
+      "name": "Café Caboclo"
+    },
+    {
+      "name": "Café Martínez"
+    },
+    {
+      "name": "Cabrales"
+    },
+    {
+      "name": "Puerto Blest"
+    },
+    {
+      "name": "Lattente"
+    },
+    {
+      "name": "Flat & White"
+    },
+    {
+      "name": "Café Registrado"
+    },
+    {
+      "name": "Costa Coffee"
+    },
+    {
+      "name": "Caffè Nero"
+    },
+    {
+      "name": "Pret A Manger"
+    },
+    {
+      "name": "Square Mile Coffee Roasters"
+    },
+    {
+      "name": "Origin Coffee Roasters"
+    },
+    {
+      "name": "Workshop Coffee"
+    },
+    {
+      "name": "Ozone Coffee"
+    },
+    {
+      "name": "Monmouth Coffee Company"
+    },
+    {
+      "name": "Has Bean Coffee"
+    },
+    {
+      "name": "Climpson & Sons"
+    },
+    {
+      "name": "Assembly Coffee"
+    },
+    {
+      "name": "Caravan Coffee Roasters"
+    },
+    {
+      "name": "Grind"
+    },
+    {
+      "name": "Extract Coffee Roasters"
+    },
+    {
+      "name": "200 Degrees Coffee"
+    },
+    {
+      "name": "Rave Coffee"
+    },
+    {
+      "name": "Pact Coffee"
+    },
+    {
+      "name": "Union Hand-Roasted Coffee"
+    },
+    {
+      "name": "Café Direct"
+    },
+    {
+      "name": "AMT Coffee"
+    },
+    {
+      "name": "Bailies Coffee Roasters"
+    },
+    {
+      "name": "Belfast Coffee Roasters"
+    },
+    {
+      "name": "Cloud Picker Coffee"
+    },
+    {
+      "name": "3fe Coffee"
+    },
+    {
+      "name": "Coffeeangel"
+    },
+    {
+      "name": "Badger & Dodo"
+    },
+    {
+      "name": "Roasted Brown"
+    },
+    {
+      "name": "The Coffee Collective"
+    },
+    {
+      "name": "La Cabra"
+    },
+    {
+      "name": "April Coffee Roasters"
+    },
+    {
+      "name": "Tim Wendelboe"
+    },
+    {
+      "name": "Fuglen"
+    },
+    {
+      "name": "Supreme Roastworks"
+    },
+    {
+      "name": "Kaffa"
+    },
+    {
+      "name": "Solberg & Hansen"
+    },
+    {
+      "name": "Drop Coffee"
+    },
+    {
+      "name": "Johan & Nyström"
+    },
+    {
+      "name": "Löfbergs"
+    },
+    {
+      "name": "Koppi"
+    },
+    {
+      "name": "Da Matteo"
+    },
+    {
+      "name": "Gringo Nordic"
+    },
+    {
+      "name": "Morgon Coffee Roasters"
+    },
+    {
+      "name": "Lykke Kaffegårdar"
+    },
+    {
+      "name": "Kahls Kaffe"
+    },
+    {
+      "name": "Arvid Nordquist"
+    },
+    {
+      "name": "Paulig"
+    },
+    {
+      "name": "Café Bar"
+    },
+    {
+      "name": "Coffee Fellows"
+    },
+    {
+      "name": "The Barn"
+    },
+    {
+      "name": "Five Elephant"
+    },
+    {
+      "name": "Bonanza Coffee Roasters"
+    },
+    {
+      "name": "Five Senses Coffee"
+    },
+    {
+      "name": "Flying Roasters"
+    },
+    {
+      "name": "19grams"
+    },
+    {
+      "name": "Röststätte"
+    },
+    {
+      "name": "Man vs Machine"
+    },
+    {
+      "name": "JB Kaffee"
+    },
+    {
+      "name": "Schamong Kaffee"
+    },
+    {
+      "name": "Moxxa Caffè"
+    },
+    {
+      "name": "Public Coffee Roasters"
+    },
+    {
+      "name": "Friedhats Coffee Roasters"
+    },
+    {
+      "name": "Manhattan Coffee Roasters"
+    },
+    {
+      "name": "Doubleshot"
+    },
+    {
+      "name": "Lot Sixty One"
+    },
+    {
+      "name": "Giraffe Coffee Roasters"
+    },
+    {
+      "name": "Bocca Coffee"
+    },
+    {
+      "name": "Dak Coffee Roasters"
+    },
+    {
+      "name": "Rum Baba"
+    },
+    {
+      "name": "A Matter of Concrete"
+    },
+    {
+      "name": "Back to Black"
+    },
+    {
+      "name": "Caffenation"
+    },
+    {
+      "name": "MOK Coffee"
+    },
+    {
+      "name": "Wide Awake Coffee"
+    },
+    {
+      "name": "Café Tasse"
+    },
+    {
+      "name": "Gardelli Specialty Coffees"
+    },
+    {
+      "name": "Ditta Artigianale"
+    },
+    {
+      "name": "Tchibo"
+    },
+    {
+      "name": "Jacobs"
+    },
+    {
+      "name": "Douwe Egberts"
+    },
+    {
+      "name": "Moccona"
+    },
+    {
+      "name": "Julius Meinl"
+    },
+    {
+      "name": "Segafredo Zanetti"
+    },
+    {
+      "name": "Kimbo"
+    },
+    {
+      "name": "Hausbrandt"
+    },
+    {
+      "name": "Caffè Vergnano"
+    },
+    {
+      "name": "Pellini"
+    },
+    {
+      "name": "Caffè Borbone"
+    },
+    {
+      "name": "Caffè Mauro"
+    },
+    {
+      "name": "Passalacqua"
+    },
+    {
+      "name": "Lucaffé"
+    },
+    {
+      "name": "Caffè Motta"
+    },
+    {
+      "name": "Caffè Carraro"
+    },
+    {
+      "name": "Caffè Guglielmo"
+    },
+    {
+      "name": "Caffè Trombetta"
+    },
+    {
+      "name": "Caffè Haiti Roma"
+    },
+    {
+      "name": "Caffè del Doge"
+    },
+    {
+      "name": "Caffè Florian"
+    },
+    {
+      "name": "Caffè Pascucci"
+    },
+    {
+      "name": "Caffè Costadoro"
+    },
+    {
+      "name": "Caffè Molinari"
+    },
+    {
+      "name": "Caffè Toraldo"
+    },
+    {
+      "name": "Caffè Izzo"
+    },
+    {
+      "name": "Caffè New York"
+    },
+    {
+      "name": "Caffè Musetti"
+    },
+    {
+      "name": "Caffè Hardy"
+    },
+    {
+      "name": "Caffè Diemme"
+    },
+    {
+      "name": "Caffè Roen"
+    },
+    {
+      "name": "Caffè Piansa"
+    },
+    {
+      "name": "Caffè Gioia"
+    },
+    {
+      "name": "Caffè Moreno"
+    },
+    {
+      "name": "Caffè Barbera"
+    },
+    {
+      "name": "Caffè Kenon"
+    },
+    {
+      "name": "Caffè Trucillo"
+    },
+    {
+      "name": "Caffè Passalacqua"
+    },
+    {
+      "name": "Coffee Collective"
+    },
+    {
+      "name": "Coffee Island"
+    },
+    {
+      "name": "Taf Coffee"
+    },
+    {
+      "name": "Santo Coffee"
+    },
+    {
+      "name": "Mikel Coffee Company"
+    },
+    {
+      "name": "Kawa"
+    },
+    {
+      "name": "Coffeein"
+    },
+    {
+      "name": "Café Vergnano"
+    },
+    {
+      "name": "Kronotrop"
+    },
+    {
+      "name": "Probador Colectiva"
+    },
+    {
+      "name": "Petra Roasting Co."
+    },
+    {
+      "name": "Coffee Sapiens"
+    },
+    {
+      "name": "Coffee Department"
+    },
+    {
+      "name": "Coffee Room"
+    },
+    {
+      "name": "Truth Coffee Roasting"
+    },
+    {
+      "name": "Origin Coffee Roasting"
+    },
+    {
+      "name": "Father Coffee"
+    },
+    {
+      "name": "Terbodore Coffee Roasters"
+    },
+    {
+      "name": "Rosetta Roastery"
+    },
+    {
+      "name": "Bluebird Coffee Roastery"
+    },
+    {
+      "name": "Bean There Coffee Company"
+    },
+    {
+      "name": "Deluxe Coffeeworks"
+    },
+    {
+      "name": "Ciro Beverage Solutions"
+    },
+    {
+      "name": "Wesley & Co."
+    },
+    {
+      "name": "Tomoca Coffee"
+    },
+    {
+      "name": "Kaldi's Coffee Ethiopia"
+    },
+    {
+      "name": "Moplaco"
+    },
+    {
+      "name": "Garden of Coffee"
+    },
+    {
+      "name": "Kafa Forest Coffee"
+    },
+    {
+      "name": "Dormans Coffee"
+    },
+    {
+      "name": "Java House"
+    },
+    {
+      "name": "Artcaffé"
+    },
+    {
+      "name": "Spring Valley Coffee"
+    },
+    {
+      "name": "Sasini Coffee"
+    },
+    {
+      "name": "Kawa Koffee"
+    },
+    {
+      "name": "Café Javas"
+    },
+    {
+      "name": "RAW Coffee Company"
+    },
+    {
+      "name": "Nightjar Coffee"
+    },
+    {
+      "name": "Seven Fortunes Coffee Roasters"
+    },
+    {
+      "name": "The Espresso Lab"
+    },
+    {
+      "name": "Boon Coffee"
+    },
+    {
+      "name": "Camel Step"
+    },
+    {
+      "name": "Barn's"
+    },
+    {
+      "name": "Kiffa Coffee"
+    },
+    {
+      "name": "Qahwa 9"
+    },
+    {
+      "name": "Caffeine Lab"
+    },
+    {
+      "name": "Brew92"
+    },
+    {
+      "name": "Bacha Coffee"
+    },
+    {
+      "name": "Kava & Chai"
+    },
+    {
+      "name": "Akha Ama Coffee"
+    },
+    {
+      "name": "Roots Coffee"
+    },
+    {
+      "name": "Glitch Coffee & Roasters"
+    },
+    {
+      "name": "Onibus Coffee"
+    },
+    {
+      "name": "Maruyama Coffee"
+    },
+    {
+      "name": "Kurasu"
+    },
+    {
+      "name": "% Arabica"
+    },
+    {
+      "name": "Doutor Coffee"
+    },
+    {
+      "name": "Tully's Coffee"
+    },
+    {
+      "name": "Sarutahiko Coffee"
+    },
+    {
+      "name": "Ogawa Coffee"
+    },
+    {
+      "name": "Horiguchi Coffee"
+    },
+    {
+      "name": "Blue Bottle Coffee Japan"
+    },
+    {
+      "name": "Coffee County"
+    },
+    {
+      "name": "LiLo Coffee Roasters"
+    },
+    {
+      "name": "Mel Coffee Roasters"
+    },
+    {
+      "name": "Weekenders Coffee"
+    },
+    {
+      "name": "WEEKENDERS COFFEE"
+    },
+    {
+      "name": "Leaves Coffee Roasters"
+    },
+    {
+      "name": "Unlimited Coffee Roasters"
+    },
+    {
+      "name": "Coffee Wrights"
+    },
+    {
+      "name": "Bongen Coffee"
+    },
+    {
+      "name": "Rec Coffee"
+    },
+    {
+      "name": "Fritz Coffee Company"
+    },
+    {
+      "name": "Momos Coffee"
+    },
+    {
+      "name": "Coffee Libre"
+    },
+    {
+      "name": "Terarosa"
+    },
+    {
+      "name": "Center Coffee"
+    },
+    {
+      "name": "Felt Coffee"
+    },
+    {
+      "name": "Lowkey Coffee"
+    },
+    {
+      "name": "Anthracite Coffee"
+    },
+    {
+      "name": "Namusairo"
+    },
+    {
+      "name": "Coffee Montage"
+    },
+    {
+      "name": "Deep Blue Lake"
+    },
+    {
+      "name": "Nylon Coffee Roasters"
+    },
+    {
+      "name": "Tiong Hoe Specialty Coffee"
+    },
+    {
+      "name": "Apartment Coffee"
+    },
+    {
+      "name": "PPP Coffee"
+    },
+    {
+      "name": "Common Man Coffee Roasters"
+    },
+    {
+      "name": "Alchemist"
+    },
+    {
+      "name": "Yardstick Coffee"
+    },
+    {
+      "name": "Toby's Estate"
+    },
+    {
+      "name": "OldTown White Coffee"
+    },
+    {
+      "name": "Highlands Coffee"
+    },
+    {
+      "name": "The Coffee House"
+    },
+    {
+      "name": "Trung Nguyen"
+    },
+    {
+      "name": "Kopi Kenangan"
+    },
+    {
+      "name": "Anomali Coffee"
+    },
+    {
+      "name": "Tanamera Coffee"
+    },
+    {
+      "name": "Kopi Luwak brands"
+    },
+    {
+      "name": "Fore Coffee"
+    },
+    {
+      "name": "Luckin Coffee"
+    },
+    {
+      "name": "Cotti Coffee"
+    },
+    {
+      "name": "Manner Coffee"
+    },
+    {
+      "name": "M Stand"
+    },
+    {
+      "name": "Seesaw Coffee"
+    },
+    {
+      "name": "M2M Coffee"
+    },
+    {
+      "name": "Mellower Coffee"
+    },
+    {
+      "name": "Fisheye"
+    },
+    {
+      "name": "Coffee Buff"
+    },
+    {
+      "name": "Metal Hands"
+    },
+    {
+      "name": "Fika Fika Cafe"
+    },
+    {
+      "name": "Simple Kaffa"
+    },
+    {
+      "name": "VWI by Chad Wang"
+    },
+    {
+      "name": "Rufous Coffee"
+    },
+    {
+      "name": "Coffee Sind"
+    },
+    {
+      "name": "Coffee Stopover"
+    },
+    {
+      "name": "Cama Café"
+    },
+    {
+      "name": "Black as Chocolate"
+    },
+    {
+      "name": "Coffee Law"
+    },
+    {
+      "name": "Blue Tokai Coffee Roasters"
+    },
+    {
+      "name": "Third Wave Coffee"
+    },
+    {
+      "name": "Sleepy Owl Coffee"
+    },
+    {
+      "name": "Rage Coffee"
+    },
+    {
+      "name": "Country Bean"
+    },
+    {
+      "name": "Continental Coffee"
+    },
+    {
+      "name": "Tata Coffee"
+    },
+    {
+      "name": "Cothas Coffee"
+    },
+    {
+      "name": "Leo Coffee"
+    },
+    {
+      "name": "Narasu's Coffee"
+    },
+    {
+      "name": "KC Roasters"
+    },
+    {
+      "name": "Subko Coffee Roasters"
+    },
+    {
+      "name": "Naivo Coffee Roasters"
+    },
+    {
+      "name": "Grey Soul Coffee Roasters"
+    },
+    {
+      "name": "Araku Coffee"
+    },
+    {
+      "name": "Savorworks Coffee"
+    },
+    {
+      "name": "Bloom Coffee Roasters"
+    },
+    {
+      "name": "Corridor Seven Coffee Roasters"
+    },
+    {
+      "name": "Black Baza Coffee"
+    },
+    {
+      "name": "Hunkal Heights Coffee"
+    },
+    {
+      "name": "Maverick & Farmer"
+    },
+    {
+      "name": "Marc's Coffee"
+    },
+    {
+      "name": "The Caffeine Baar"
+    },
+    {
+      "name": "Himalayan Java"
+    },
+    {
+      "name": "Karma Coffee"
+    },
+    {
+      "name": "Karuna Coffee"
+    },
+    {
+      "name": "Coffee Wagera"
+    },
+    {
+      "name": "Esquires Coffee"
+    },
+    {
+      "name": "North End Coffee Roasters"
+    },
+    {
+      "name": "Tabaq Coffee"
+    },
+    {
+      "name": "Caffeine Coffee Roasters"
+    },
+    {
+      "name": "Merlo Coffee"
+    },
+    {
+      "name": "Campos Coffee"
+    },
+    {
+      "name": "Allpress Espresso"
+    },
+    {
+      "name": "Coffee Supreme"
+    },
+    {
+      "name": "ONA Coffee"
+    },
+    {
+      "name": "Seven Seeds"
+    },
+    {
+      "name": "Market Lane Coffee"
+    },
+    {
+      "name": "Single O"
+    },
+    {
+      "name": "Industry Beans"
+    },
+    {
+      "name": "St Ali"
+    },
+    {
+      "name": "Axil Coffee Roasters"
+    },
+    {
+      "name": "Code Black Coffee"
+    },
+    {
+      "name": "Small Batch Roasting Co."
+    },
+    {
+      "name": "Dukes Coffee Roasters"
+    },
+    {
+      "name": "Seven Miles Coffee Roasters"
+    },
+    {
+      "name": "Genovese Coffee"
+    },
+    {
+      "name": "Vittoria Coffee"
+    },
+    {
+      "name": "Grinders Coffee"
+    },
+    {
+      "name": "Di Bella Coffee"
+    },
+    {
+      "name": "The Coffee Club"
+    },
+    {
+      "name": "Flight Coffee"
+    },
+    {
+      "name": "People's Coffee"
+    },
+    {
+      "name": "Havana Coffee Works"
+    },
+    {
+      "name": "C4 Coffee"
+    },
+    {
+      "name": "Good Fortune Coffee"
+    },
+    {
+      "name": "Kōkako Organic Coffee"
+    },
+    {
+      "name": "Coffee Culture"
+    },
+    {
+      "name": "Jamaica Blue"
+    },
+    {
+      "name": "Nestlé"
+    },
+    {
+      "name": "JDE Peet's"
+    },
+    {
+      "name": "The Coffee Bean & Tea Leaf"
+    },
+    {
+      "name": "Gloria Jean's Coffees"
+    },
+    {
+      "name": "Café Coffee Day"
+    },
+    {
+      "name": "Paul Bassett"
+    },
+    {
+      "name": "Juan Valdez Café"
+    },
+    {
+      "name": "Rogue Wave"
+    },
+    {
+      "name": "Blanchard's Coffee",
+      "aliases": [
+        "Blanchard's"
+      ]
+    },
+    {
+      "name": "CETO"
+    },
+    {
+      "name": "Hydrangea"
+    },
+    {
+      "name": "Flower Child"
+    },
+    {
+      "name": "NATIVE"
+    },
+    {
+      "name": "Superlost Coffee",
+      "aliases": [
+        "Superlost"
+      ]
+    },
+    {
+      "name": "Thankfully Coffee",
+      "aliases": [
+        "Thankfully"
+      ]
+    },
+    {
+      "name": "LUNA Coffee"
+    },
+    {
+      "name": "SP Coffee"
+    },
+    {
+      "name": "Touchy Coffee",
+      "aliases": [
+        "Touchy"
+      ]
+    },
+    {
+      "name": "norange coffee roasters",
+      "aliases": [
+        "norange"
+      ]
+    },
+    {
+      "name": "September Coffee Company",
+      "aliases": [
+        "September Coffee"
+      ]
+    },
+    {
+      "name": "Sorellina"
+    },
+    {
+      "name": "Regalia"
+    },
+    {
+      "name": "Datura"
+    },
+    {
+      "name": "Tandem Coffee Roasters",
+      "aliases": [
+        "Tandem Coffee"
+      ]
+    }
   ],
   "countries": [
-    { "name": "Ethiopia" },
-    { "name": "Colombia" },
-    { "name": "Guatemala" },
-    { "name": "Kenya" },
-    { "name": "Costa Rica" },
-    { "name": "Honduras" },
-    { "name": "Brazil" },
-    { "name": "Rwanda" },
-    { "name": "El Salvador" },
-    { "name": "Peru" },
-    { "name": "Burundi" },
-    { "name": "Panama" },
-    { "name": "Nicaragua" },
-    { "name": "Mexico" },
-    { "name": "Bolivia" },
-    { "name": "Ecuador" },
-    { "name": "Tanzania" },
-    { "name": "Uganda" },
-    { "name": "Yemen" },
-    { "name": "Papua New Guinea" },
-    { "name": "Indonesia", "aliases": ["Sumatra", "Java", "Sulawesi"] },
-    { "name": "India" },
-    { "name": "China" },
-    { "name": "Myanmar", "aliases": ["Burma"] }
+    {
+      "name": "Ethiopia"
+    },
+    {
+      "name": "Colombia"
+    },
+    {
+      "name": "Guatemala"
+    },
+    {
+      "name": "Kenya"
+    },
+    {
+      "name": "Costa Rica"
+    },
+    {
+      "name": "Honduras"
+    },
+    {
+      "name": "Brazil"
+    },
+    {
+      "name": "Rwanda"
+    },
+    {
+      "name": "El Salvador"
+    },
+    {
+      "name": "Peru"
+    },
+    {
+      "name": "Burundi"
+    },
+    {
+      "name": "Panama"
+    },
+    {
+      "name": "Nicaragua"
+    },
+    {
+      "name": "Mexico"
+    },
+    {
+      "name": "Bolivia"
+    },
+    {
+      "name": "Ecuador"
+    },
+    {
+      "name": "Tanzania"
+    },
+    {
+      "name": "Uganda"
+    },
+    {
+      "name": "Yemen"
+    },
+    {
+      "name": "Papua New Guinea"
+    },
+    {
+      "name": "Indonesia",
+      "aliases": [
+        "Sumatra",
+        "Java",
+        "Sulawesi"
+      ]
+    },
+    {
+      "name": "India"
+    },
+    {
+      "name": "China"
+    },
+    {
+      "name": "Myanmar",
+      "aliases": [
+        "Burma"
+      ]
+    }
   ],
   "processes": [
-    { "name": "Washed", "aliases": ["Fully Washed", "Wet Process"] },
-    { "name": "Natural", "aliases": ["Dry Process"] },
-    { "name": "Honey", "aliases": ["Pulped Natural"] },
-    { "name": "Anaerobic" },
-    { "name": "Carbonic Maceration" }
+    {
+      "name": "Washed",
+      "aliases": [
+        "Fully Washed",
+        "Wet Process"
+      ]
+    },
+    {
+      "name": "Natural",
+      "aliases": [
+        "Dry Process"
+      ]
+    },
+    {
+      "name": "Honey",
+      "aliases": [
+        "Pulped Natural"
+      ]
+    },
+    {
+      "name": "Anaerobic"
+    },
+    {
+      "name": "Carbonic Maceration"
+    }
   ],
   "varieties": [
-    { "name": "SL28" },
-    { "name": "SL34" },
-    { "name": "Bourbon" },
-    { "name": "Catuai", "aliases": ["Catuaí"] },
-    { "name": "Java" },
-    { "name": "Pacas" },
-    { "name": "Gesha", "aliases": ["Geisha"] },
-    { "name": "Mejorado" },
-    { "name": "Parainema" },
-    { "name": "Pink Bourbon" },
-    { "name": "SL9" },
-    { "name": "Purple Caturra" },
-    { "name": "Castillo" },
-    { "name": "Typica" },
-    { "name": "Ethiopian Landrace" },
-    { "name": "Red & Yellow Catuai", "aliases": ["Red and Yellow Catuai"] },
-    { "name": "Yellow Bourbon" },
-    { "name": "Red Bourbon" },
-    { "name": "Catimor" },
-    { "name": "Red Gesha", "aliases": ["Red Geisha"] },
-    { "name": "Ruiru 11", "aliases": ["Ruiru-11"] },
-    { "name": "Caturron", "aliases": ["Caturrón"] },
-    { "name": "Red Pacamara" },
-    { "name": "Caturra" },
-    { "name": "Sidra" },
-    { "name": "Batian" },
-    { "name": "Pacamara" },
-    { "name": "Heirloom", "aliases": ["Ethiopian Heirloom"] }
-  ] }
+    {
+      "name": "SL28"
+    },
+    {
+      "name": "SL34"
+    },
+    {
+      "name": "Bourbon"
+    },
+    {
+      "name": "Catuai",
+      "aliases": [
+        "Catuaí"
+      ]
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "Pacas"
+    },
+    {
+      "name": "Gesha",
+      "aliases": [
+        "Geisha"
+      ]
+    },
+    {
+      "name": "Mejorado"
+    },
+    {
+      "name": "Parainema"
+    },
+    {
+      "name": "Pink Bourbon"
+    },
+    {
+      "name": "SL9"
+    },
+    {
+      "name": "Purple Caturra"
+    },
+    {
+      "name": "Castillo"
+    },
+    {
+      "name": "Typica"
+    },
+    {
+      "name": "Ethiopian Landrace"
+    },
+    {
+      "name": "Red & Yellow Catuai",
+      "aliases": [
+        "Red and Yellow Catuai"
+      ]
+    },
+    {
+      "name": "Yellow Bourbon"
+    },
+    {
+      "name": "Red Bourbon"
+    },
+    {
+      "name": "Catimor"
+    },
+    {
+      "name": "Red Gesha",
+      "aliases": [
+        "Red Geisha"
+      ]
+    },
+    {
+      "name": "Ruiru 11",
+      "aliases": [
+        "Ruiru-11"
+      ]
+    },
+    {
+      "name": "Caturron",
+      "aliases": [
+        "Caturrón"
+      ]
+    },
+    {
+      "name": "Red Pacamara"
+    },
+    {
+      "name": "Caturra"
+    },
+    {
+      "name": "Sidra"
+    },
+    {
+      "name": "Batian"
+    },
+    {
+      "name": "Pacamara"
+    },
+    {
+      "name": "Heirloom",
+      "aliases": [
+        "Ethiopian Heirloom"
+      ]
+    }
+  ]
+}
