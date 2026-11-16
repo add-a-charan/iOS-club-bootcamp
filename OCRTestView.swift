@@ -54,6 +54,7 @@ struct OCRTestView: View {
                 Name: \(details.coffeeName.isEmpty ? "Not found" : details.coffeeName)
                 Roaster: \(details.roaster.isEmpty ? "Not found" : details.roaster)
                 Country: \(details.countryOfOrigin ?? "Not found")
+                Region: \(details.region ?? "Not found")
                 Varieties: \(details.varieties ?? "Not found")
                 Processes: \(details.processes ?? "Not found")
                 Elevation: \(details.elevation ?? "Not found")
