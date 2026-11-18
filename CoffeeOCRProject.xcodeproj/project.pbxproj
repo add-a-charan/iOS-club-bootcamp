@@ -7,34 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC612DF1A2AA1E84565E9EA4 /* CoffeeLabelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */; };
-		C35EAE5C67D0D1B7AECA7B59 /* CoffeeLabelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */; };
-		2C8E031D0D59BF28976638EA /* CoffeeOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */; };
 		0434E1B7610C11131CB58CA3 /* CoffeeOCRProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */; };
-		8BED32AD69809652C8DDCD44 /* CoffeeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */; };
-		6ACA8FE8729FFED2B229B715 /* CoffeeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */; };
-		EA4B8069CC920C3D58A60F75 /* CoffeeTextNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */; };
-		9E0BF8DF6A2ACE7388B73DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E549CDF39697F1AEA383E /* ContentView.swift */; };
-		81717DF242FDAD96E2C3E53F /* LabelExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */; };
-		793E1CFB3E519C902DC9BE32 /* OCRTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */; };
+		2C8E031D0D59BF28976638EA /* CoffeeOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */; };
 		5CF7401C8F98FEFA1DC897DA /* CoffeeReference.json in Resources */ = {isa = PBXBuildFile; fileRef = 62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */; };
+		6ACA8FE8729FFED2B229B715 /* CoffeeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */; };
+		793E1CFB3E519C902DC9BE32 /* OCRTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */; };
+		81717DF242FDAD96E2C3E53F /* LabelExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */; };
+		8BED32AD69809652C8DDCD44 /* CoffeeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */; };
+		9E0BF8DF6A2ACE7388B73DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E549CDF39697F1AEA383E /* ContentView.swift */; };
+		A1B2C3D4E5F6071829304A01 /* CoffeeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304A02 /* CoffeeBag.swift */; };
+		A1B2C3D4E5F6071829304A03 /* PassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304A04 /* PassportView.swift */; };
+		A1B2C3D4E5F6071829304A05 /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304A06 /* AddCoffeeView.swift */; };
+		A1B2C3D4E5F6071829304A07 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6071829304A08 /* WelcomeView.swift */; };
+		C35EAE5C67D0D1B7AECA7B59 /* CoffeeLabelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */; };
 		DFECB626815F31C4580F91C8 /* test_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2FE648C80D446F5F231E22 /* test_label.png */; };
+		EA4B8069CC920C3D58A60F75 /* CoffeeTextNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */; };
+		EC612DF1A2AA1E84565E9EA4 /* CoffeeLabelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOCRProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelParser.swift; sourceTree = "<group>"; };
-		F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelValidator.swift; sourceTree = "<group>"; };
-		8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCR.swift; sourceTree = "<group>"; };
-		1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCRProjectApp.swift; sourceTree = "<group>"; };
-		5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeReference.swift; sourceTree = "<group>"; };
-		FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScanner.swift; sourceTree = "<group>"; };
 		010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTextNormalizer.swift; sourceTree = "<group>"; };
-		371E549CDF39697F1AEA383E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtractor.swift; sourceTree = "<group>"; };
-		EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestView.swift; sourceTree = "<group>"; };
-		62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoffeeReference.json; sourceTree = "<group>"; };
+		1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCRProjectApp.swift; sourceTree = "<group>"; };
 		2E2FE648C80D446F5F231E22 /* test_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_label.png; sourceTree = "<group>"; };
+		371E549CDF39697F1AEA383E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelParser.swift; sourceTree = "<group>"; };
+		5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeReference.swift; sourceTree = "<group>"; };
+		62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoffeeReference.json; sourceTree = "<group>"; };
+		7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOCRProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCR.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304A02 /* CoffeeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBag.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304A04 /* PassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304A06 /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6071829304A08 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestView.swift; sourceTree = "<group>"; };
+		EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtractor.swift; sourceTree = "<group>"; };
+		F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelValidator.swift; sourceTree = "<group>"; };
+		FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2B731CEFC6751AAE0EC69B98 = {
 			isa = PBXGroup;
 			children = (
@@ -63,16 +79,12 @@
 				EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */,
 				62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */,
 				2E2FE648C80D446F5F231E22 /* test_label.png */,
+				A1B2C3D4E5F6071829304A02 /* CoffeeBag.swift */,
+				A1B2C3D4E5F6071829304A04 /* PassportView.swift */,
+				A1B2C3D4E5F6071829304A06 /* AddCoffeeView.swift */,
+				A1B2C3D4E5F6071829304A08 /* WelcomeView.swift */,
 				0A2C978E52A76F0AA9F68BB5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,61 +168,25 @@
 				9E0BF8DF6A2ACE7388B73DA7 /* ContentView.swift in Sources */,
 				81717DF242FDAD96E2C3E53F /* LabelExtractor.swift in Sources */,
 				793E1CFB3E519C902DC9BE32 /* OCRTestView.swift in Sources */,
+				A1B2C3D4E5F6071829304A01 /* CoffeeBag.swift in Sources */,
+				A1B2C3D4E5F6071829304A03 /* PassportView.swift in Sources */,
+				A1B2C3D4E5F6071829304A05 /* AddCoffeeView.swift in Sources */,
+				A1B2C3D4E5F6071829304A07 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F25EF7827B5210B4D9103995 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		B7DFA010494D99B3247DD1DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9551FA205EEDB822C0C0C876 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N724JWX35N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MugShot uses the camera to photograph your coffee bag.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -234,8 +210,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N724JWX35N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MugShot uses the camera to photograph your coffee bag.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -254,23 +232,65 @@
 			};
 			name = Release;
 		};
+		B7DFA010494D99B3247DD1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25EF7827B5210B4D9103995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDC8A1029C4F3E06784CCFF1 /* Build configuration list for PBXProject "CoffeeOCRProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F25EF7827B5210B4D9103995 /* Debug */,
-				B7DFA010494D99B3247DD1DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6D2F3F0C466A0EC0B2062AA7 /* Build configuration list for PBXNativeTarget "CoffeeOCRProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9551FA205EEDB822C0C0C876 /* Debug */,
 				B13417540F0CA686AB156AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC8A1029C4F3E06784CCFF1 /* Build configuration list for PBXProject "CoffeeOCRProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25EF7827B5210B4D9103995 /* Debug */,
+				B7DFA010494D99B3247DD1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

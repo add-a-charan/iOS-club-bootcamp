@@ -1,10 +1,12 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct CoffeeOCRProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            OCRTestView()
+            WelcomeView()
         }
+        .modelContainer(for: CoffeeBag.self)
     }
 }

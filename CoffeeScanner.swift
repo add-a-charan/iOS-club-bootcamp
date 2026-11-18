@@ -10,7 +10,7 @@ struct OCRLine {
     let boundingBox: CGRect
 }
 
-enum OriginType: String {
+enum OriginType: String, CaseIterable {
     case fieldBlend = "Field Blend"
     case singleOrigin = "Single Origin"
     case blend = "Blend"
