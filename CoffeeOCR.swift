@@ -73,7 +73,7 @@ final class CoffeeOCR {
 
     /// Sorts OCR lines top-to-bottom and groups vertically aligned elements into horizontal rows (left-to-right).
     /// Pure static helper to prevent capturing self in Task.detached.
-    static func orderLines(_ lines: [OCRLine]) -> [OCRLine] {
+    nonisolated static func orderLines(_ lines: [OCRLine]) -> [OCRLine] {
         let verticallySorted = lines.sorted { $0.boundingBox.maxY > $1.boundingBox.maxY }
 
         var rows: [[OCRLine]] = []

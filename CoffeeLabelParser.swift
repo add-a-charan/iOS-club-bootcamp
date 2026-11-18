@@ -1,6 +1,16 @@
 import CoreGraphics
 import Foundation
 
+struct ClassifiedLines {
+    let lines: [OCRLine]
+    let texts: [String]
+    let tableVarieties: [String]
+    let tastingNotes: String?
+    let notesIndices: Set<Int>
+    let claimedIndices: Set<Int>
+    let titleCandidates: [(index: Int, line: OCRLine)]
+}
+
 /// Handles line classification, table extraction, deterministic reference parsing, and title selection.
 final class CoffeeLabelParser {
     private let reference: CoffeeReference

@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC612DF1A2AA1E84565E9EA4 /* CoffeeLabelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */; };
+		C35EAE5C67D0D1B7AECA7B59 /* CoffeeLabelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */; };
+		2C8E031D0D59BF28976638EA /* CoffeeOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */; };
+		0434E1B7610C11131CB58CA3 /* CoffeeOCRProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */; };
+		8BED32AD69809652C8DDCD44 /* CoffeeReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */; };
+		6ACA8FE8729FFED2B229B715 /* CoffeeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */; };
+		EA4B8069CC920C3D58A60F75 /* CoffeeTextNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */; };
+		9E0BF8DF6A2ACE7388B73DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E549CDF39697F1AEA383E /* ContentView.swift */; };
+		81717DF242FDAD96E2C3E53F /* LabelExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */; };
+		793E1CFB3E519C902DC9BE32 /* OCRTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */; };
+		5CF7401C8F98FEFA1DC897DA /* CoffeeReference.json in Resources */ = {isa = PBXBuildFile; fileRef = 62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */; };
+		DFECB626815F31C4580F91C8 /* test_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2FE648C80D446F5F231E22 /* test_label.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOCRProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelParser.swift; sourceTree = "<group>"; };
+		F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLabelValidator.swift; sourceTree = "<group>"; };
+		8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCR.swift; sourceTree = "<group>"; };
+		1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOCRProjectApp.swift; sourceTree = "<group>"; };
+		5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeReference.swift; sourceTree = "<group>"; };
+		FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScanner.swift; sourceTree = "<group>"; };
+		010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTextNormalizer.swift; sourceTree = "<group>"; };
+		371E549CDF39697F1AEA383E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtractor.swift; sourceTree = "<group>"; };
+		EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestView.swift; sourceTree = "<group>"; };
+		62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoffeeReference.json; sourceTree = "<group>"; };
+		2E2FE648C80D446F5F231E22 /* test_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_label.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3806DEFC96CD30D22C0E71FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				5815586B5108DE56ED3DC5CF /* CoffeeLabelParser.swift */,
+				F8F7C9BEF100866BEB03ECDB /* CoffeeLabelValidator.swift */,
+				8DB1D670D3E3B2A045370E15 /* CoffeeOCR.swift */,
+				1DA18E2AC90DBC29A66ED814 /* CoffeeOCRProjectApp.swift */,
+				5F0EDFCBFD86EA3F065D636A /* CoffeeReference.swift */,
+				FC41502F8707F55A35AD56F3 /* CoffeeScanner.swift */,
+				010464E944DC2F602CE9DB56 /* CoffeeTextNormalizer.swift */,
+				371E549CDF39697F1AEA383E /* ContentView.swift */,
+				EFCBCD391DF2388E8F16F9DA /* LabelExtractor.swift */,
+				EE553229D6AA62A6F85D21D3 /* OCRTestView.swift */,
+				62B5F1CD694E9B45CD6B4F06 /* CoffeeReference.json */,
+				2E2FE648C80D446F5F231E22 /* test_label.png */,
+				0A2C978E52A76F0AA9F68BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2C978E52A76F0AA9F68BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* CoffeeOCRProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F3F0C466A0EC0B2062AA7 /* Build configuration list for PBXNativeTarget "CoffeeOCRProject" */;
+			buildPhases = (
+				DBAEDAAE674BE07D23447E75 /* Sources */,
+				3806DEFC96CD30D22C0E71FE /* Frameworks */,
+				B098093DFB498EF325D85EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeOCRProject;
+			productName = CoffeeOCRProject;
+			productReference = 7F6D01D6546BCD07518D8398 /* CoffeeOCRProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = CDC8A1029C4F3E06784CCFF1 /* Build configuration list for PBXProject "CoffeeOCRProject" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A2C978E52A76F0AA9F68BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* CoffeeOCRProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B098093DFB498EF325D85EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF7401C8F98FEFA1DC897DA /* CoffeeReference.json in Resources */,
+				DFECB626815F31C4580F91C8 /* test_label.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBAEDAAE674BE07D23447E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC612DF1A2AA1E84565E9EA4 /* CoffeeLabelParser.swift in Sources */,
+				C35EAE5C67D0D1B7AECA7B59 /* CoffeeLabelValidator.swift in Sources */,
+				2C8E031D0D59BF28976638EA /* CoffeeOCR.swift in Sources */,
+				0434E1B7610C11131CB58CA3 /* CoffeeOCRProjectApp.swift in Sources */,
+				8BED32AD69809652C8DDCD44 /* CoffeeReference.swift in Sources */,
+				6ACA8FE8729FFED2B229B715 /* CoffeeScanner.swift in Sources */,
+				EA4B8069CC920C3D58A60F75 /* CoffeeTextNormalizer.swift in Sources */,
+				9E0BF8DF6A2ACE7388B73DA7 /* ContentView.swift in Sources */,
+				81717DF242FDAD96E2C3E53F /* LabelExtractor.swift in Sources */,
+				793E1CFB3E519C902DC9BE32 /* OCRTestView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F25EF7827B5210B4D9103995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7DFA010494D99B3247DD1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9551FA205EEDB822C0C0C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosclub.CoffeeOCRProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B13417540F0CA686AB156AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosclub.CoffeeOCRProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC8A1029C4F3E06784CCFF1 /* Build configuration list for PBXProject "CoffeeOCRProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25EF7827B5210B4D9103995 /* Debug */,
+				B7DFA010494D99B3247DD1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2F3F0C466A0EC0B2062AA7 /* Build configuration list for PBXNativeTarget "CoffeeOCRProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9551FA205EEDB822C0C0C876 /* Debug */,
+				B13417540F0CA686AB156AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

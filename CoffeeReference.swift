@@ -1,3 +1,5 @@
+// xcode: set sdk=iOS
+
 import Foundation
 
 // =============================================================
@@ -64,7 +66,7 @@ private struct ReferenceData: Codable {
 // -------------------------------------------------------------
 // [Swift Lesson 2]: CLASS (loaded once, shared by the scanner)
 // -------------------------------------------------------------
-final class CoffeeReference {
+final class CoffeeReference: @unchecked Sendable {
 
     /// The four lookup lists in the JSON file. The scanner picks which list
     /// to search by passing one of these.
@@ -165,6 +167,19 @@ final class CoffeeReference {
             }
         }
         return results
+    }
+
+    /// Returns canonical name when the text is a name or alias in this category, otherwise nil.
+    func exactMatch(_ text: String, for category: Category) -> String? {
+        let normalized = Self.normalize(text.trimmingCharacters(in: .whitespacesAndNewlines))
+        let fullRange = NSRange(normalized.startIndex..., in: normalized)
+        for matcher in matchers[category] ?? [] {
+            if let hit = matcher.regex.firstMatch(in: normalized, range: fullRange),
+               hit.range == fullRange {
+                return matcher.canonicalName
+            }
+        }
+        return nil
     }
 
     // MARK: - Loading

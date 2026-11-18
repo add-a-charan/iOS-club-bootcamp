@@ -5,6 +5,7 @@ import Foundation
 /// them against `CoffeeReference` before using them.
 struct ExtractedLabel {
     var coffeeName: String?
+    var roaster: String?
     var countries: [String] = []
     var regions: [String] = []
     var varieties: [String] = []
@@ -35,6 +36,9 @@ import FoundationModels
 struct GeneratedLabel {
     @Guide(description: "The coffee's product title (lot, farm, or producer name). Not the roaster.")
     var coffeeName: String?
+
+    @Guide(description: "The roaster or brand name, as printed. Not the coffee's name.")
+    var roaster: String?
 
     @Guide(description: "Countries of origin, as printed on the label.")
     var countries: [String]
@@ -81,6 +85,7 @@ extension LabelExtractor {
             let g = response.content
             return ExtractedLabel(
                 coffeeName: g.coffeeName,
+                roaster: g.roaster,
                 countries: g.countries,
                 regions: g.regions,
                 varieties: g.varieties,
